@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "test": "jest tests"
   },
   "author": "Septa",
   "license": "ISC",
@@ -20,6 +21,11 @@
     "pusher": "^5.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.3"
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3",
+    "supertest": "^6.3.4"
   }
 }
